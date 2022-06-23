@@ -11,7 +11,6 @@ if (empty($TMUX))
   endif
 endif
 
-
 " Plugins
 call plug#begin()
 
@@ -42,6 +41,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 inoremap jj <ESC>
 
 "Plugin Settings
+"Add line number in nerdtree
 let g:NERDTreeShowLineNumbers=1
 autocmd BufEnter NERD_* setlocal rnu
 
